@@ -4,9 +4,8 @@ import { defineConfig } from "vite";
 export default defineConfig ({
   build: {
     lib: {
-      entry: resolve(__dirname, "src/index.jsx"),
+      entry: resolve(__dirname, "src/index.tsx"),
       name: "my-library",
-   		 
       fileName: "index",
     },
     rollupOptions: {
